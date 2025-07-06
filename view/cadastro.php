@@ -7,14 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="view/styles/style.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-<?php include 'navbar.php' ?>
+<?php include 'view/navbar.php' ?>
 
 <div class="container">
     <div class="card-header text-white" style="background-color: #D2691E; text-align: center; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">Criar conta</div>
