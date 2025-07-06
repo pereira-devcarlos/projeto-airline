@@ -79,8 +79,8 @@ coluna2{
 
 .btn-custom {
     width: 300px;
-    background-color: #FF4500 !important;
-    border-color: #FF4500 !important;
+    background-color: #D2691E !important;
+    border-color: #c96016 !important;
 }
 
 #formDestino{
@@ -199,7 +199,7 @@ coluna2{
 footer {
     position: absolute;
     bottom: 100;
-    background-color: #FF6347;
+    background-color: #da5f49;
     color: #FFF;
     width: 100%; 
     text-align: center;
