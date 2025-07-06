@@ -9,10 +9,10 @@
                 $novoUser->setCpf($_POST['cpf']);
                 $novoUser->setNomeUsuario($_POST['nomeUsuario']);
                 $novoUser->setEmail($_POST['email']);
-                $novoUser->setDtaNasc($_POST['dtaNasc']);
-                $novoUser->setPaisNasc($_POST['paisNasc']);
-                $novoUser->setNumTel($_POST['numTel']);
-                $novoUser->setSenha(md5($_POST['senha']));
+                $novoUser->setDtaNasc($_POST['dataNasc']);
+                $novoUser->setPaisNasc($_POST['paisUsuario']);
+                $novoUser->setNumTel($_POST['numeroCelular']);
+                $novoUser->setSenha($_POST['senha']);
                 $novoUser->setSexo($_POST['sexo']);
 
                 $novoUser->cadastrarUsuario();
