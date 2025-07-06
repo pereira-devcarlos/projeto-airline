@@ -10,7 +10,7 @@ class Conexao {
      * Método público que estabelece e retorna uma conexão com o banco de dados
      * @return PDO|null Retorna o objeto de conexão PDO ou null em caso de erro
      */
-    public function conectar(){
+    public static function conectar(){
         // Configurações do servidor de banco de dados
 
         $servername = "localhost";  // Endereço do servidor MySQL (local neste caso)
@@ -20,7 +20,7 @@ class Conexao {
         // Bloco try-catch para capturar possíveis erros de conexão
         try{
             // Criação da conexão PDO com o banco de dados MySQL
-            $conn = new PDO("mysql:host=$servername;dbname=rotaairnales",$username,$password);
+            $conn = new PDO("mysql:host=$servername;dbname=rotaairlines",$username,$password);
             
             // Configura o PDO para lançar exceções em caso de erro
             // Isso facilita o tratamento de erros durante operações no banco
