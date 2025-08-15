@@ -61,4 +61,4 @@ Este projeto está sob a licença MIT.
 
 ---
 
-Desenvolvido por [Carlos Eduardo Pereira](https://github.com/pereira-devcarlos)
+Sendo desenvolvido por [Carlos Eduardo Pereira](https://github.com/pereira-devcarlos)
